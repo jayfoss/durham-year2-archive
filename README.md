@@ -1,1 +1,3 @@
-# durham-year2-archive
+# Coursework Archive Second Year
+
+Archive of all second year coursework
