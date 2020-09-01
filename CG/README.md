@@ -2,6 +2,7 @@ Due to CORS restrictions, image data can only be read from the same origin, or w
 To get around this, the scene uses Node to create a web server (and therefore an origin point).
 
 ===========================HOW TO VIEW THE SCENE===========================
+
 To be able to view the scene you MUST:
 - Extract all files from the outer zip folder into a clean working directory
 - Make sure Node.js is installed/running on your device (if you have a managed desktop, it can be launched from the app launcher)
