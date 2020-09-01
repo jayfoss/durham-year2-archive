@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WebGL Scene</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<canvas id="glCanvas" width="640" height="480"></canvas>
+		<br />
+		<div class="lc">
+			<h3>General Controls</h3>
+			<p>[ Select Previous Object</p>
+			<p>] Select Next Object</p>
+			<p>W A S D Pan Camera</p>
+			<p>R Move Camera Up</p>
+			<p>F Move Camera Down</p>
+			<p>&larr; &rarr; Yaw Camera</p>
+			<p>&uarr; &darr; Pitch Camera</p>
+		</div>
+		<div class="rc">
+			<p>Currently selected: <span id="currently-selected"></span></p>
+			<h3>Contextual Controls</h3>
+			<div id="contextual-controls"></div>
+		</div>
+		<script src="lib/gl-matrix-min.js"></script>
+		<script src="graphics.js"></script>
+	</body>
+</html>

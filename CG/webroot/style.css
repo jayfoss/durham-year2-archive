@@ -1,0 +1,9 @@
+* {
+	font-family:Helvetica, sans-serif;
+}
+
+.lc, .rc {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
