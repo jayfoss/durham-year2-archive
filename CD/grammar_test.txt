@@ -1,0 +1,15 @@
+:variable->w|x|y|z
+:constant->C|D
+:bin_connective->\land|\lor|\implies|\iff
+:un_connective->\neg
+:quantifier->\exists|\forall
+:predicate_id->P|Q
+:term->:constant|:variable
+:formula_bracketed->:term = :term|:formula :bin_connective :formula
+:predicate_vars_exp->, :predicate_vars|
+:predicate_vars->:variable :predicate_vars_exp
+:predicate->:predicate_id ( :predicate_vars )
+:formula->:predicate|:quantifier :variable :formula|( :formula_bracketed )|:un_connective :formula
+
+Terminals ::= w  x  y  z  C  D  \land  \lor  \implies  \iff  \neg  \exists  \forall  P  Q  ,    (  ) 
+Non-Terminals ::= :constant  :variable  :term  :formula  :bin_connective  :predicate_vars  :predicate_vars_exp  :predicate_id  :quantifier  :formula_bracketed  :un_connective 
